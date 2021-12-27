@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../fotos/reactor.ico" type="image/x-icon">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <!--google fonts-->
+    <!--bootstrap-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="../css/diseño.css">
+    <title>Registrase</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>
+                Universo Cinematografico De Marvel
+            </h1>
+            <a href="../index.html"><img src="../fotos/ucm.png" width="150px" alt="ucm logo"></a>
+            <h2><em>Registro</em></h2>
+            <ul>
+                <ul class="menu">
+                    <li><a href="../index.html">Fase Uno</a></li>
+                    <li><a href="*">Fase Dos</a></li>
+                    <li><a href="*">Fase Tres</a></li>
+                    <li><a href="*">Fase Cuatro</a></li>
+                    <li><a href="./pages/registrase.html" target="_blank">Iniciar Sesion</a></li>
+                    <li><a href="#top">Contactos</a></li>
+                </ul>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <main>
+        <section class="contenerdor">
+            <h2>Registrase</h2>
+            <form action=""></form>
+            <fieldset>
+                <legend>Registro</legend>
+                <div>
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="lastname">Apellido</label>
+                    <input type="text" name="lastname" required>
+                </div>
+                <br>
+                <div>
+                    <label for="pais">selecciona pais</label>
+                    <select name="pais">
+                        <option value="argentina">Argentina</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="uruguay">Uruguay</option>
+                        <option value="paraguay">Paraguay</option>
+                        <option value="peru">Peru</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="nac">fecha de nacimiento</label>
+                    <input type="date" name="nac">
+                </div>
+                <br>
+                <div>
+                    <label for="mail" placeholder="correo electronico">Escribe Correo</label>
+                    <input type="mail" name="mail" required>
+                </div>
+                <br>
+                <div>
+                    <label for="pass" placeholder="contraseña">Contraseña</label>
+                    <input type="password" name="pass">
+                </div>
+                <br>
+                <div>
+                    <label for="civil">Estado Civil</label>
+                    <input type="radio" value="casado" name="civil"> Casado
+                    <input type="radio" value="separado" name="civil"> Separado
+                    <input type="radio" value="soltero" name="civil"> Soltero
+                    <input type="radio" value="viudo" name="civil"> Viudo
+                </div>
+                <br>
+                <div>
+                    <h3>deja tu sugerencias</h3>
+                    <label for="sugerencias"></label>
+                    <textarea name="coment" id="" cols="60" rows="20"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="enviar">
+                    <input type="reset" value="borrar">
+                </div>
+            </fieldset>
+        </section>
+    </main>
+    <br>
+    <footer id="top">
+        <ul class="redes">
+            <li>
+                <a href="https://www.instagram.com/rama._001/" target="_blank"><img src="../fotos/instagram-logo.png" width="40px" alt="Instagram"></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/ramironicolas.buenaventura/" target="_blank"><img src="../fotos/logo face.png" width="40px" alt="Facebook"></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/ChrisEvans" target="_blank"><img src="../fotos/logo twitter.png" width="40px" alt="twitter"></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/c/marvel/featured" target="_blank"><img src="../fotos/youtube-logo-7-2.png" width="50px" alt="youtube"></a>
+            </li>
+        </ul>
+        <p>&copy; 2021</p>
+    </footer>
+    <!--js-->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="./js/bootstrap.js"></script>
+    <!--js-->
+</body>
+
+</html>
