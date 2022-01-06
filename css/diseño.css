@@ -1,225 +1,214 @@
-    * {
-        margin: 0;
-        padding: 0%;
-        box-sizing: border-box;
-    }
-    /*nav*/
-    
-    .rojo {
-        background-color: #F0131E;
-    }
-    /*fuente*/
-    
-    h1 {
-        text-align: center;
-        color: rgb(255, 255, 255);
-    }
-    
-    h4 {
-        color: rgb(255, 255, 255);
-    }
-    /*body y main index*/
-    
-    .medioindex {
-        background-color: #0000008f;
-        width: 70%;
-        margin: auto;
-    }
-    /*medio fases*/
-    
-    body {
-        background-image: linear-gradient(to bottom, #C72523, #951E22, #4D1518);
-        color: white;
-    }
-    
-    .mediofases {
-        background-color: #0000008f;
-        width: 70%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(3, 1fr);
-    }
-    
-    .imgfase1 {
-        position: relative;
-        left: 25%;
-    }
-    
-    .pelifase1 {
-        transition: all 2s ease;
-        border: solid rgb(253, 253, 253);
-        box-shadow: rgb(0, 0, 0) 1px 5px 25px;
-        border-radius: 20px;
-    }
-    
-    .pelifase1:hover {
-        transform: scale(1.1, 1.1);
-    }
-    /*fase 1 informacion*/
-    
-    .aside {
-        width: 25%;
-        background-color: #0000008f;
-        grid-area: aside;
-        margin: auto;
-        float: right;
-        position: relative;
-        right: 3%;
-        margin-top: 1.5px;
-        box-sizing: border-box;
-    }
-    
-    .cajaside {
-        border: solid rgb(247, 245, 245);
-    }
-    
-    .recaudacion {
-        position: relative;
-        right: 25px;
-        list-style: none;
-    }
-    
-    .imgaside {
-        margin-top: 10px;
-        position: relative;
-        left: 10%;
-        border: solid rgb(253, 253, 253);
-        box-shadow: rgb(0, 0, 0) 1px 5px 25px;
-    }
-    
-    .medioinfofase1 {
-        width: 70%;
-        background-color: #0000008f;
-        grid-area: medioinfofase1;
-        margin: auto;
-        position: relative;
-        right: 13%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        box-sizing: border-box;
-    }
-    
-    .reparto {
-        width: 60%;
-        height: 40%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(1, 2fr);
-        gap: 20px;
-        position: relative;
-        left: 5%;
-    }
-    
-    .trailers {
-        position: relative;
-        left: 20%;
-    }
-    /*footer*/
-    
-    footer {
-        background-color: #F0131E;
-        text-align: center;
-        padding: 2%;
-        grid-area: footer;
-    }
-    
-    footer ul {
-        list-style-type: none;
-    }
-    
-    .redes li {
-        display: inline-block;
-    }
-    
-    .imgredes {
-        transition: all 2s ease;
-        box-shadow: rgb(0, 0, 0) 1px 5px 25px;
-        border-radius: 6px;
-    }
-    
-    .imgredes:hover {
-        transform: scale(1.1, 1.1);
-    }
-    
-    .redes svg {
-        color: rgb(245, 245, 245);
-        width: 40px;
-        height: 100px;
-    }
-    /*vista mobile*/
-    
-    @media screen and (max-width: 720px) {
-        footer {
-            margin: auto;
-        }
-    }
-    
-    @media screen and (max-width:720px) {
-        .mediofases {
-            background-color: #0000008f;
-            width: 70%;
-            margin: auto;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: repeat(6, 1fr);
-        }
-    }
-    
-    @media screen and (max-width:720px) {
-        .imgfase1 {
-            position: relative;
-            left: 21%;
-        }
-    }
-    
-    @media screen and (max-width:720px) {
-        h4 {
-            font-size: 1.2rem;
-        }
-    }
-    
-    @media screen and (max-width: 720px) {
-        .medioinfofase1 {
-            width: 70%;
-            background-color: #0000008f;
-            grid-area: medioinfofase1;
-            margin: auto;
-            position: relative;
-            right: 13%;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-    }
-    
-    @media screen and(max-width:720px) {
-        .aside {
-            width: 20%;
-            background-color: #0000008f;
-            grid-area: aside;
-            margin: auto;
-            right: 3%;
-            margin-top: 1.6px;
-            float: right;
-            position: relative;
-        }
-    }
-    
-    @media screen and (max-width:720px) {
-        .recaudacion {
-            list-style: none;
-        }
-    }
-    
-    @media screen and (max-width: 720px) {
-        .imgaside {
-            width: 105px;
-            margin-top: 5px;
-        }
-    }
-    
-    @media screen and (max-width:720px) {
-        .main {
-            width: 70%;
-        }
-    }
+                    * {
+                        margin: 0;
+                        padding: 0%;
+                        box-sizing: border-box;
+                    }
+                    /*nav*/
+                    
+                    .rojo {
+                        background-color: #F0131E;
+                    }
+                    /*fuente*/
+                    
+                    h1 {
+                        text-align: center;
+                        color: rgb(255, 255, 255);
+                    }
+                    
+                    h4 {
+                        color: rgb(255, 255, 255);
+                    }
+                    /*body y main index*/
+                    
+                    .medioindex {
+                        background-color: #0000008f;
+                        width: 70%;
+                        margin: auto;
+                    }
+                    /*medio fases*/
+                    
+                    body {
+                        background-image: linear-gradient(to bottom, #C72523, #951E22, #4D1518);
+                        color: white;
+                    }
+                    
+                    .mediofases {
+                        background-color: #0000008f;
+                        width: 70%;
+                        margin: auto;
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        grid-template-rows: repeat(3, 1fr);
+                    }
+                    
+                    .imgfase1 {
+                        position: relative;
+                        left: 25%;
+                    }
+                    
+                    .pelifase1 {
+                        transition: all 2s ease;
+                        border: solid rgb(253, 253, 253);
+                        box-shadow: rgb(0, 0, 0) 1px 5px 25px;
+                        border-radius: 20px;
+                    }
+                    
+                    .pelifase1:hover {
+                        transform: scale(1.1, 1.1);
+                    }
+                    /*fase 1 informacion*/
+                    
+                    aside {
+                        width: 20%;
+                        background-color: #0000008f;
+                        float: right;
+                        position: relative;
+                        right: 3%;
+                    }
+                    
+                    .cajaside {
+                        border: solid rgb(247, 245, 245);
+                    }
+                    
+                    .recaudacion {
+                        position: relative;
+                        right: 25px;
+                        list-style: none;
+                    }
+                    
+                    .imgaside {
+                        margin-top: 10px;
+                        position: relative;
+                        left: 10%;
+                        border: solid rgb(253, 253, 253);
+                        box-shadow: rgb(0, 0, 0) 1px 5px 25px;
+                    }
+                    
+                    .medioinfofase1 {
+                        width: 70%;
+                        background-color: #0000008f;
+                        margin: auto;
+                        position: relative;
+                        right: 10%;
+                    }
+                    
+                    .reparto {
+                        width: 60%;
+                        height: 40%;
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        grid-template-rows: repeat(1, 2fr);
+                        gap: 20px;
+                        position: relative;
+                        left: 5%;
+                    }
+                    
+                    .trailers {
+                        position: relative;
+                        left: 20%;
+                    }
+                    /*footer*/
+                    
+                    footer {
+                        background-color: #F0131E;
+                        text-align: center;
+                        padding: 2%;
+                        grid-area: footer;
+                    }
+                    
+                    footer ul {
+                        list-style-type: none;
+                    }
+                    
+                    .redes li {
+                        display: inline-block;
+                    }
+                    
+                    .imgredes {
+                        transition: all 2s ease;
+                        box-shadow: rgb(0, 0, 0) 1px 5px 25px;
+                        border-radius: 6px;
+                    }
+                    
+                    .imgredes:hover {
+                        transform: scale(1.1, 1.1);
+                    }
+                    
+                    .redes svg {
+                        color: rgb(245, 245, 245);
+                        width: 40px;
+                        height: 100px;
+                    }
+                    /*vista mobile*/
+                    
+                    @media screen and (max-width: 720px) {
+                        footer {
+                            margin: auto;
+                        }
+                    }
+                    
+                    @media screen and (max-width:720px) {
+                        .mediofases {
+                            background-color: #0000008f;
+                            width: 70%;
+                            margin: auto;
+                            display: grid;
+                            grid-template-columns: 1fr;
+                            grid-template-rows: repeat(6, 1fr);
+                        }
+                    }
+                    
+                    @media screen and (max-width:720px) {
+                        .imgfase1 {
+                            position: relative;
+                            left: 10%;
+                        }
+                    }
+                    
+                    @media screen and (max-width:720px) {
+                        h4 {
+                            font-size: 1.2rem;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 720px) {
+                        .kaiak {
+                            display: grid;
+                            grid-template-columns: 1fr;
+                            grid-template-rows: 1fr;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 720px) {
+                        .medioinfofase1 {
+                            width: 80%;
+                            background-color: #0000008f;
+                            margin: auto;
+                            position: relative;
+                            right: auto;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 720px) {
+                        aside {
+                            width: 80%;
+                            background-color: #0000008f;
+                            margin: auto;
+                            position: relative;
+                            right: auto;
+                        }
+                    }
+                    
+                    @media screen and (max-width:720px) {
+                        .recaudacion {
+                            list-style: none;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 720px) {
+                        .imgaside {
+                            width: 200px;
+                            margin-top: 5px;
+                            position: relative;
+                        }
+                    }
