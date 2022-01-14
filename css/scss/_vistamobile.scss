@@ -1,0 +1,47 @@
+@media screen and (max-width: 720px) {
+    footer {
+        margin: auto;
+    }
+    .kaiak {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .medioinfofase1 {
+        width: 80%;
+        background-color: #0000008f;
+        margin: auto;
+        position: relative;
+        right: auto;
+    }
+    aside {
+        width: 80%;
+        background-color: #0000008f;
+        margin: auto;
+        position: relative;
+        right: auto;
+    }
+    .imgaside {
+        width: 200px;
+        margin-top: 5px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .mediofases {
+        background-color: #0000008f;
+        width: 70%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .imgfase1 {
+        position: relative;
+        left: 10%;
+    }
+    .recaudacion {
+        list-style: none;
+    }
+}

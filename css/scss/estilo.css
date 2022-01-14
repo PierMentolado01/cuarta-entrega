@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #424242;
+    color: white;
+}
+
+.rojo {
+    background-color: #F0131E;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.medioindex {
+    background-color: #0000008f;
+    width: 70%;
+    margin: auto;
+}
+
+.mediofases {
+    background-color: #0000008f;
+    width: 70%;
+    margin: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: (1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.imgfase1 {
+    position: relative;
+    left: 25%;
+}
+
+.pelifase1 {
+    -webkit-transition: all 2s ease;
+    transition: all 2s ease;
+    border: solid #fdfdfd;
+    -webkit-box-shadow: black 1px 5px 25px;
+    box-shadow: black 1px 5px 25px;
+    border-radius: 20px;
+}
+
+.pelifase1:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+
+aside {
+    width: 20%;
+    background-color: #0000008f;
+    float: right;
+    position: relative;
+    right: 3%;
+}
+
+.cajaside {
+    border: solid #f7f5f5;
+}
+
+.recaudacion {
+    position: relative;
+    right: 25px;
+    list-style: none;
+}
+
+.imgaside {
+    margin-top: 10px;
+    position: relative;
+    left: 10%;
+    border: solid #fdfdfd;
+    -webkit-box-shadow: black 1px 5px 25px;
+    box-shadow: black 1px 5px 25px;
+}
+
+.medioinfofase1 {
+    width: 70%;
+    background-color: #0000008f;
+    margin: auto;
+    position: relative;
+    right: 10%;
+}
+
+.reparto {
+    width: 60%;
+    height: 40%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: (2fr);
+    grid-template-rows: repeat(1, 2fr);
+    gap: 20px;
+    position: relative;
+    left: 5%;
+}
+
+.trailers {
+    position: relative;
+    left: 20%;
+}
+
+@media screen and (max-width: 720px) {
+    footer {
+        margin: auto;
+    }
+    .kaiak {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .medioinfofase1 {
+        width: 80%;
+        background-color: #0000008f;
+        margin: auto;
+        position: relative;
+        right: auto;
+    }
+    aside {
+        width: 80%;
+        background-color: #0000008f;
+        margin: auto;
+        position: relative;
+        right: auto;
+    }
+    .imgaside {
+        width: 200px;
+        margin-top: 5px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .mediofases {
+        background-color: #0000008f;
+        width: 70%;
+        margin: auto;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        -ms-grid-rows: (1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .imgfase1 {
+        position: relative;
+        left: 10%;
+    }
+    .recaudacion {
+        list-style: none;
+    }
+}
+
+footer {
+    background-color: #F0131E;
+    text-align: center;
+    padding: 2%;
+    grid-area: footer;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.redes li {
+    display: inline-block;
+}
+
+.redes svg {
+    color: whitesmoke;
+    width: 40px;
+    height: 100px;
+}
+
+.imgredes {
+    -webkit-transition: all 2s ease;
+    transition: all 2s ease;
+    -webkit-box-shadow: black 1px 5px 25px;
+    box-shadow: black 1px 5px 25px;
+    border-radius: 6px;
+}
+
+.imgredes:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+
+aside {
+    background-color: #f0131ed3;
+    color: #ffffff;
+}
+
+.medioinfofase1 {
+    background-color: #f0131ed3;
+    color: #ffffff;
+}
+
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,23 @@
+$bg_claro:#424242;
+$bg_oscuro:#f0131ed3;
+$color1:#ffffff;
+@import "body";
+@import "header";
+@import "fuentes";
+@import "medioindex";
+@import "fases";
+@import "infofases";
+@import "vistamobile";
+@import "footer";
+@mixin estilocaja ($color, $bg) {
+    background-color: $bg;
+    color: $color;
+}
+
+aside {
+    @include estilocaja($color1, $bg_oscuro)
+}
+
+.medioinfofase1 {
+    @include estilocaja($color1, $bg_oscuro)
+}

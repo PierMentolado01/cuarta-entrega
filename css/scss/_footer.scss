@@ -1,0 +1,29 @@
+footer {
+    background-color: #F0131E;
+    text-align: center;
+    padding: 2%;
+    grid-area: footer;
+    ul {
+        list-style-type: none;
+    }
+}
+
+.redes {
+    li {
+        display: inline-block;
+    }
+    svg {
+        color: rgb(245, 245, 245);
+        width: 40px;
+        height: 100px;
+    }
+}
+
+.imgredes {
+    transition: all 2s ease;
+    box-shadow: rgb(0, 0, 0) 1px 5px 25px;
+    border-radius: 6px;
+    &:hover {
+        transform: scale(1.1, 1.1);
+    }
+}

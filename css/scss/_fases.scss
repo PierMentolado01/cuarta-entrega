@@ -1,0 +1,23 @@
+.mediofases {
+    background-color: #0000008f;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.imgfase1 {
+    position: relative;
+    left: 25%;
+}
+
+.pelifase1 {
+    transition: all 2s ease;
+    border: solid rgb(253, 253, 253);
+    box-shadow: rgb(0, 0, 0) 1px 5px 25px;
+    border-radius: 20px;
+    &:hover {
+        transform: scale(1.1, 1.1);
+    }
+}
