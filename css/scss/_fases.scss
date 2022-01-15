@@ -1,15 +1,15 @@
-.mediofases {
-    background-color: #0000008f;
+.mediofase3 {
+    background-color: $bg_oscuro;
     width: 70%;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
 }
 
-.imgfase1 {
+.imgfase3 {
     position: relative;
-    left: 25%;
+    left: 15%;
 }
 
 .pelifase1 {

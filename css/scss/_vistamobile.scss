@@ -9,14 +9,14 @@
     }
     .medioinfofase1 {
         width: 80%;
-        background-color: #0000008f;
+        background-color: $bg_oscuro;
         margin: auto;
         position: relative;
         right: auto;
     }
     aside {
         width: 80%;
-        background-color: #0000008f;
+        background-color: $bg_oscuro;
         margin: auto;
         position: relative;
         right: auto;
@@ -26,22 +26,34 @@
         margin-top: 5px;
         position: relative;
     }
+    .recaudacion {
+        list-style: none;
+    }
 }
 
 @media screen and (max-width:720px) {
-    .mediofases {
-        background-color: #0000008f;
-        width: 70%;
+    .mediofase3 {
+        background-color: $bg_oscuro;
+        width: 65%;
         margin: auto;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
     }
-    .imgfase1 {
+    .imgfase3 {
         position: relative;
-        left: 10%;
+        left: 17%;
     }
-    .recaudacion {
-        list-style: none;
+}
+
+@media screen and (max-width:720px) {
+    .pelifase1 {
+        transition: all 2s ease;
+        border: solid rgb(253, 253, 253);
+        box-shadow: black 1px 5px 25px;
+        border-radius: 20px;
+        &:hover {
+            transform: scale(1.0, 1.0);
+        }
     }
 }

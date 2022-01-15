@@ -7,3 +7,9 @@
 *agregar sass
 
 *mixin
+
+15/01/22
+
+*agregar info fase 2
+
+*agregar fase 3
