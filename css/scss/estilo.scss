@@ -1,5 +1,5 @@
 $bg_claro:#3f3f3f;
-$bg_oscuro:#610f0fd3;
+$bg_oscuro:#0000008f;
 $color1:#ffffff;
 @import "body";
 @import "header";
@@ -27,8 +27,19 @@ $color1:#ffffff;
     left: 20%;
 }
 
+@mixin imgenesprimerasdosfasesmobile {
+    position: relative;
+    left: 10%;
+}
+
 .imgfase1 {
     @include imgenesprimerasdosfases()
+}
+
+@media screen and (max-width:720px) {
+    .imgfase1 {
+        @include imgenesprimerasdosfasesmobile
+    }
 }
 
 @mixin fase1y2mobile {

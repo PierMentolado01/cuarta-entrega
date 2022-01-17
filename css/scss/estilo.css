@@ -31,7 +31,7 @@ h4 {
 }
 
 .mediofase3 {
-  background-color: #610f0fd3;
+  background-color: #0000008f;
   width: 70%;
   margin: auto;
   display: -ms-grid;
@@ -44,7 +44,7 @@ h4 {
 
 .imgfase3 {
   position: relative;
-  left: 15%;
+  left: 10%;
 }
 
 .pelifase1 {
@@ -98,14 +98,14 @@ h4 {
   }
   .medioinfofase1 {
     width: 80%;
-    background-color: #610f0fd3;
+    background-color: #0000008f;
     margin: auto;
     position: relative;
     right: auto;
   }
   aside {
     width: 80%;
-    background-color: #610f0fd3;
+    background-color: #0000008f;
     margin: auto;
     position: relative;
     right: auto;
@@ -122,8 +122,8 @@ h4 {
 
 @media screen and (max-width: 720px) {
   .mediofase3 {
-    background-color: #610f0fd3;
-    width: 65%;
+    background-color: #0000008f;
+    width: 70%;
     margin: auto;
     display: -ms-grid;
     display: grid;
@@ -134,7 +134,10 @@ h4 {
   }
   .imgfase3 {
     position: relative;
-    left: 17%;
+    left: 6%;
+  }
+  .pelifase1 {
+    width: 200px;
   }
 }
 
@@ -150,6 +153,13 @@ h4 {
   .pelifase1:hover {
     -webkit-transform: scale(1, 1);
             transform: scale(1, 1);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .imgfase1 {
+    position: relative;
+    left: auto;
   }
 }
 
@@ -188,7 +198,7 @@ footer ul {
 }
 
 .mediofases {
-  background-color: #610f0fd3;
+  background-color: #0000008f;
   width: 65%;
   margin: auto;
   display: -ms-grid;
@@ -202,6 +212,13 @@ footer ul {
 .imgfase1 {
   position: relative;
   left: 20%;
+}
+
+@media screen and (max-width: 720px) {
+  .imgfase1 {
+    position: relative;
+    left: 10%;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -229,7 +246,7 @@ aside {
 @media screen and (max-width: 720px) {
   aside {
     width: 80%;
-    background-color: #610f0fd3;
+    background-color: #0000008f;
     margin: auto;
     position: relative;
     right: auto;
@@ -276,7 +293,7 @@ aside {
 @media screen and (max-width: 720px) {
   .medioinfofase1 {
     width: 80%;
-    background-color: #610f0fd3;
+    background-color: #0000008f;
     margin: auto;
     position: relative;
     right: auto;
