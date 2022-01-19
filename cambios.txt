@@ -1,3 +1,5 @@
+(la carpeta de sass sse encuentra dentro de la de css)
+
 13/01/22
 
 *mejorar version mobile sobre la info de las peliculas
